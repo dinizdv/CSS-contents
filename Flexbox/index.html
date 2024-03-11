@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Flexbox with CSS</h1>
+    <h2>default</h2>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <hr>
+
+    <h2>display: flex</h2>
+    <div class="container" id="container-flexbox">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <hr>
+
+    <h2>f-d: column</h2>
+    <div class="container" id="container-flexbox-column">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <hr>
+
+    <h2>f-d: column-reverse</h2>
+    <div class="container" id="container-flexbox-columnReverse">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <hr>
+
+    <h2>j-c: flex-start (default)</h2>
+    <div class="container" id="container-flexbox-flexStart">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <hr>
+
+    <h2>j-c: flex-end</h2>
+    <div class="container" id="container-flexbox-flexEnd">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <hr>
+
+    <h2>j-c: space-between</h2>
+    <div class="container" id="container-flexbox-spaceBetween">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <hr>
+
+    <h2>j-c: space-evenly</h2>
+    <div class="container" id="container-flexbox-spaceEvenly">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <hr>
+
+    <h2>j-c: space-around</h2>
+    <div class="container" id="container-flexbox-spaceAround">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <hr>
+    
+    <h2>a-i: flex-end</h2>
+    <div class="container" id="container-flexbox-alignEnd">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <hr>
+
+    <h2>a-i: flex-end & flex-column (column -> inversion)</h2>
+    <div class="container" id="container-flexbox-alignEnd-flexColumn">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <hr>
+
+    <h2>flex-wrap: wrap (break line)</h2>
+    <div class="container" id="container-flexbox-flexWrap">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box" id="item3">4</div>
+        <div class="box" id="item3">5</div>
+        <div class="box" id="item3">6</div>
+        <div class="box" id="item3">7</div>
+        <div class="box" id="item3">8</div>
+        <div class="box" id="item3">9</div>
+    </div>
+    <hr>
+
+    <h2>item1 -> alignSelf: flex-start</h2>
+    <div class="container" id="container-flexbox-alignSelf">
+        <div class="box" id="item1-alignSelfStart">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <hr>
+
+    <h2>itens -> flex-basis</h2>
+    <div class="container" id="container-flexbox-flexBasis">
+        <div class="box flexBasis">1</div>
+        <div class="box flexBasis">2</div>
+        <div class="box flexBasis">3</div>
+    </div>
+    <hr>
+
+    <h2>item1 -> flex-grow: 2</h2>
+    <div class="container" id="container-flexbox-flexBasis-flexGrow">
+        <div class="box flexBasis" id="item1-flexGrow">1</div>
+        <div class="box flexBasis">2</div>
+        <div class="box flexBasis">3</div>
+    </div>
+    <hr>
+
+    <h2>item1 -> flex-shrink: 2</h2>
+    <div class="container" id="container-flexbox-flexBasis-flexShrink">
+        <div class="box flexBasis" id="item1-flexShrink">1</div>
+        <div class="box flexBasis">2</div>
+        <div class="box flexBasis">3</div>
+    </div>
+    <hr>
+
+    <h2>flex: 1 (g) 2 (s) 100px</h2>
+    <div class="container" id="container-flexbox-flex">
+        <div class="box flexBasis">1</div>
+        <div class="box flexBasis">2</div>
+        <div class="box flexBasis">3</div>
+    </div>
+    <hr>
+
+    <h2>itens -> order</h2>
+    <div class="container" id="container-flexbox-order">
+        <div class="box" id="item1-order">1</div>
+        <div class="box" id="item2-order">2</div>
+        <div class="box" id="item3-order">3</div>
+    </div>
+    <hr>
+
+</body>
+</html>

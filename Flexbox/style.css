@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+body h1 {
+    text-align: center;
+    color: orange;
+}
+
+body h2 {
+    text-align: center;
+    width: 600px;
+    background-color: dodgerblue;
+    padding: 6px;
+    font-size: 1.2rem;
+    margin: 0 auto 0 auto;
+}
+
+body hr {
+    border-color: #aaaaaa;
+    width: 600px;
+    margin-bottom: 24px;
+}
+
+.container {
+    margin: 0 auto 24px auto;
+    width: 600px;
+    height: 450px;
+    border: 2px solid dodgerblue;
+    padding-top: 12px;
+}
+
+.box {
+    background-color: #484848;
+    border: 1px solid crimson;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#container-flexbox {
+    display: flex;
+}
+
+#container-flexbox-column {
+    display: flex;
+    flex-direction: column;
+}
+
+#container-flexbox-columnReverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#container-flexbox-flexStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#container-flexbox-flexEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#container-flexbox-spaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container-flexbox-spaceEvenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#container-flexbox-spaceAround {
+    display: flex;
+    justify-content: space-around;
+}
+
+#container-flexbox-alignEnd {
+    display: flex;
+    align-items: flex-end;
+}
+
+#container-flexbox-flexWrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container-flexbox-alignSelf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-flexbox-alignSelf #item1-alignSelfStart {
+    align-self: flex-start;
+}
+
+#container-flexbox-flexBasis {
+    display: flex;
+}
+
+.flexBasis {
+    flex-basis: 150px;
+}
+
+#container-flexbox-flexBasis-flexGrow {
+    display: flex;
+}
+
+#item1-flexGrow {
+    flex-grow: 2;
+}
+
+#container-flexbox-flexBasis-flexShrink {
+    display: flex;
+}
+
+#item1-flexShrink {
+    flex-shrink: 2;
+}
+
+#container-flexbox-flex {
+    display: flex;
+    flex: 1 3 200px;
+}
+
+#container-flexbox-order {
+    display: flex;
+}
+
+#item1-order {
+    order: 2;
+}
+
+#item2-order {
+    order: 3;
+}
+
+#item3-order {
+    order: 1;
+}
